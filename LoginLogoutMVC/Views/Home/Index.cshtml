@@ -1,0 +1,103 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DTI-PANI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/RecursosExtra/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/RecursosExtra/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/RecursosExtra/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/RecursosExtra/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/RecursosExtra/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/RecursosExtra/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/RecursosExtra/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/RecursosExtra/css/main.css">
+    <!--===============================================================================================-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family:Nunito Sans;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100 p-l-50 p-r-50  p-b-30">
+
+                <form action="/Home/Index" method="post" class="login100-form validate-form">
+                    <span class="login100-form-title">
+
+                        <a class="navbar-brand" href="#">
+                            <img src="~/assets/brand/free-png-free-png-transparent-images-9614-pngio-freepng-images-530_530.png" width="200" height="200" class="d-inline-block align-top" alt="">
+                          
+                        </a>
+                    </span>
+
+                    <div class="wrap-input100 validate-input m-b-16">
+                        <input class="input100" type="text" name="uname" placeholder="Usuario">
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <span class="lnr lnr-envelope"></span>
+                        </span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-b-16" data-validate="Password is required">
+                        <input class="input100" type="password" name="pass" placeholder="Contrasena">
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <span class="lnr lnr-lock"></span>
+                        </span>
+                    </div>
+
+                    <div class="contact100-form-checkbox m-l-4">
+                        <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                        <label class="label-checkbox100" for="ckb1">
+                            Recordar Usuario
+                        </label>
+                    </div>
+
+                    <div class="container-login100-form-btn ">
+                        <button type="submit" class="btn btn-warning btn-lg btn-block" style="color:whitesmoke">Iniciar Sesion</button>
+                    </div>
+
+
+
+
+
+                    <div class="text-center w-full p-t-115">
+                        <label style="color: red;font-size:22px">@ViewBag.loginresult</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--===============================================================================================-->
+    <script src="~/RecursosExtra/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/RecursosExtra/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/RecursosExtra//bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/RecursosExtra/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/RecursosExtra/js/main.js"></script>
+
+</body>
+
+</html>
